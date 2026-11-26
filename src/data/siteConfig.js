@@ -1,0 +1,110 @@
+export const SITE_CONFIG = {
+  siteTitle: 'CONLEY FAMILY',
+  homepageTitle: 'Conley Forever & Forever Conley',
+  password: 'Conley',
+  logoUrl:
+    'https://images.squarespace-cdn.com/content/v1/55ca2998e4b06aa610a1ee0f/702ef047-82d8-4888-82f0-b19129cc2f24/Conley+Crest-2.png',
+  coverBgUrl:
+    'https://images.squarespace-cdn.com/content/v1/55ca2998e4b06aa610a1ee0f/94f4c275-5aed-47ee-89a6-36d15c2da9d9/3d-wood-logo-mockup-using-psd-png-file.jpg',
+  heritageLogoUrl:
+    'https://images.squarespace-cdn.com/content/v1/55ca2998e4b06aa610a1ee0f/dab3533f-43f4-4f23-bbc9-c2a5ecf62262/Conley+Family+Heritage+Logo.png',
+  footerPortraitUrl:
+    'https://images.squarespace-cdn.com/content/v1/55ca2998e4b06aa610a1ee0f/abac279d-48e7-490c-a6f4-69c8b86220c6/267ef8f9d1ce2671ed456cd217578e2a.jpg',
+  socialLinks: [
+    {
+      name: 'Facebook',
+      url: 'https://www.facebook.com/ConleyFamilyAssociation/',
+      ariaLabel: 'Conley Family Association on Facebook',
+    },
+    {
+      name: 'Pinterest',
+      url: 'https://www.pinterest.com/ConleyFamilyTrust/',
+      ariaLabel: 'Green Conley on Pinterest',
+    },
+    {
+      name: 'Twitter',
+      url: 'https://twitter.com/ConleyFamily',
+      ariaLabel: 'Conley Family on Twitter',
+    },
+  ],
+  navTree: [
+    {
+      type: 'folder',
+      label: 'CONLEY GROUP',
+      href: '/business-overview',
+      subItems: [
+        { label: 'BUSINESS OVERVIEW', href: '/business-overview' },
+        { label: 'BUSINESS HISTORY', href: '/business-history-copy' },
+      ],
+    },
+    {
+      type: 'link',
+      label: 'CONLEY CULTURAL COLLECTIONS',
+      href: '/conley-cultural-collection',
+    },
+    {
+      type: 'link',
+      label: 'BOOKS',
+      href: '/books',
+    },
+    {
+      type: 'folder',
+      label: 'ABOUT',
+      href: '/foreword',
+      subItems: [
+        { label: 'Foreword', href: '/foreword' },
+        { label: '1800-1820', href: '/1800-1820' },
+        { label: '1820-1840', href: '/1820-1840' },
+        { label: '1840-1860', href: '/1840-1860' },
+        { label: '1860-1870', href: '/1860-1870' },
+        { label: '1880-1890', href: '/1880-1890' },
+        { label: 'THE CONLEY NAME', href: '/conley-name' },
+        { label: 'TRIUMPH FROM TRAGEDY', href: '/triumph-from-tragedy' },
+        { label: 'SECRETARY', href: '/secretary' },
+      ],
+    },
+    {
+      type: 'folder',
+      label: 'BIOGRAPHIES',
+      href: '/benjamin-conley',
+      subItems: [
+        { label: 'BENJAMIN CONLEY I', href: '/benjamin-conley' },
+        { label: 'BENJAMIN CONLEY II', href: '/benjamin-conley-ii' },
+        { label: 'BINFORD CONLEY', href: '/binfordconley' },
+        { label: 'BOOKER CONLEY', href: '/booker-conley-feature' },
+        { label: 'CATHARINE CONLEY', href: '/catharine-conley-feature' },
+        { label: 'CHARLES H. CONLEY', href: '/charles-h-conley' },
+        { label: 'CHARLES S. CONLEY', href: '/charles-swinger-conley-feature' },
+        { label: 'COLEMAN CONLEY', href: '/coleman-conley' },
+        { label: 'DALTON CONLEY', href: '/dalton-conley' },
+        { label: 'EARL THOMAS CONLEY', href: '/earl-thomas-conley' },
+        { label: 'EDWARD IRA CONLEY', href: '/edward-i-conley' },
+        { label: 'H.C. CONLEY', href: '/hc-conley-feature' },
+        { label: 'JAMES CONLEY', href: '/james-conley' },
+        { label: 'JAMES WILSON', href: '/james-wilson' },
+        { label: 'LARRY ELDER', href: '/larry-elder' },
+        { label: 'MICHELE DAVIS MACFARLANE', href: '/michele-davis-macfarlane' },
+        { label: 'MIKE CONLEY SR.', href: '/mike-conley-sr' },
+        { label: 'MIKE CONLEY JR.', href: '/mike-coney-jr' },
+        { label: 'NAOMI DICKERSON', href: '/naomi-dickerson' },
+        { label: 'PASCHAL CONLEY JR', href: '/paschal-coney-jr' },
+        { label: 'VERNON BAKER', href: '/vernon-baker' },
+        { label: 'RITA STEWART MACK', href: '/rita-mack-feature' },
+        { label: 'ROXANNE DAVIS GREENE', href: '/roxanne-davis-greene-feature' },
+        { label: 'SALLIE CONLEY', href: '/sallie-conley' },
+        { label: 'SADIE KNUTSON', href: '/sadie-knutson' },
+        { label: 'SYDNEY ALEXANDRA CONLEY', href: '/sydney-alexandra-conley' },
+        { label: 'WILLIE WALTER PRUITT', href: '/willie-walter-pruitt-feature' },
+        { label: 'VALERIE CONLEY WOOD', href: '/valerie-conley-wood' },
+      ],
+    },
+    {
+      type: 'folder',
+      label: 'NEWS & INFO',
+      href: '/contact-form',
+      subItems: [
+        { label: 'CONTACT FORM', href: '/contact-form' },
+      ],
+    },
+  ],
+};
